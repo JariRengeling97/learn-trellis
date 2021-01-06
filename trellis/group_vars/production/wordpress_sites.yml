@@ -3,9 +3,9 @@
 # Define accompanying passwords/secrets in group_vars/production/vault.yml
 
 wordpress_sites:
-  learn-trellis.nl.realcloud.in:
+  bvdo1.nl:
     site_hosts:
-      - canonical: learn-trellis.nl.realcloud.in
+      - canonical: bvdo1.nl
     local_path: ../site # path targeting local Bedrock site directory (relative to Ansible root)
     repo: git@github.com:JariRengeling97/learn-trellis.git # replace with your Git repo URL
     repo_subtree_path: site # relative path to your Bedrock/WP directory in your repo
