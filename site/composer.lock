@@ -211,16 +211,16 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/JariRengeling97/wp-migrate-db.git",
-                "reference": "7638a9c811ef2b70f2eb66e54b70c157a3b75b32"
+                "reference": "c6f2befb3d6ea428967ebea9df11cf2a9daaed7d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/JariRengeling97/wp-migrate-db/zipball/7638a9c811ef2b70f2eb66e54b70c157a3b75b32",
-                "reference": "7638a9c811ef2b70f2eb66e54b70c157a3b75b32",
+                "url": "https://api.github.com/repos/JariRengeling97/wp-migrate-db/zipball/c6f2befb3d6ea428967ebea9df11cf2a9daaed7d",
+                "reference": "c6f2befb3d6ea428967ebea9df11cf2a9daaed7d",
                 "shasum": ""
             },
             "default-branch": true,
-            "type": "library",
+            "type": "wordpress-plugin",
             "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "MIT"
@@ -243,7 +243,7 @@
                 "issues": "https://github.com/JariRengeling97/wp-migrate-db/issues",
                 "source": "https://github.com/JariRengeling97/wp-migrate-db/tree/main"
             },
-            "time": "2021-01-11T11:52:43+00:00"
+            "time": "2021-01-11T12:38:34+00:00"
         },
         {
             "name": "oscarotero/env",
