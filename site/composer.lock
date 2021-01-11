@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "4ff9da77c805c7b0b40b138badd56c1a",
+    "content-hash": "8a2b8c42abd5a7c6927e036437c55b27",
     "packages": [
         {
             "name": "composer/installers",
@@ -204,6 +204,46 @@
                 }
             ],
             "time": "2020-04-13T13:17:36+00:00"
+        },
+        {
+            "name": "jarirengeling97/wp-migrate-db",
+            "version": "dev-main",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/JariRengeling97/wp-migrate-db.git",
+                "reference": "7638a9c811ef2b70f2eb66e54b70c157a3b75b32"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/JariRengeling97/wp-migrate-db/zipball/7638a9c811ef2b70f2eb66e54b70c157a3b75b32",
+                "reference": "7638a9c811ef2b70f2eb66e54b70c157a3b75b32",
+                "shasum": ""
+            },
+            "default-branch": true,
+            "type": "library",
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Jari Rengeling",
+                    "email": "jari@bureauvdo.nl",
+                    "homepage": "https://bureauvdo.nl/",
+                    "role": "Developer"
+                }
+            ],
+            "description": "WP Migrate DB - PRO",
+            "homepage": "https://bureauvdo.nl/",
+            "keywords": [
+                "plugin",
+                "wp"
+            ],
+            "support": {
+                "issues": "https://github.com/JariRengeling97/wp-migrate-db/issues",
+                "source": "https://github.com/JariRengeling97/wp-migrate-db/tree/main"
+            },
+            "time": "2021-01-11T11:52:43+00:00"
         },
         {
             "name": "oscarotero/env",
@@ -909,24 +949,6 @@
                 }
             ],
             "time": "2020-09-14T15:57:31+00:00"
-        },
-        {
-            "name": "wpackagist-plugin/cache-control",
-            "version": "2.2.5",
-            "source": {
-                "type": "svn",
-                "url": "https://plugins.svn.wordpress.org/cache-control/",
-                "reference": "tags/2.2.5"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://downloads.wordpress.org/plugin/cache-control.2.2.5.zip"
-            },
-            "require": {
-                "composer/installers": "~1.0"
-            },
-            "type": "wordpress-plugin",
-            "homepage": "https://wordpress.org/plugins/cache-control/"
         }
     ],
     "packages-dev": [
@@ -1302,6 +1324,7 @@
     "aliases": [],
     "minimum-stability": "dev",
     "stability-flags": {
+        "jarirengeling97/wp-migrate-db": 20,
         "roave/security-advisories": 20
     },
     "prefer-stable": true,
